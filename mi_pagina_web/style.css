@@ -1,0 +1,615 @@
+/* font-family: 'Fjalla One', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+    font-size: 16px;
+    background-color: #e3ede8;
+  }
+ 
+  .wrapper.especial{
+    background-color: #e3ede8;
+  }
+  .header{
+    background-color: #1a1a2ed3;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .header figure{
+    margin: 0px 0px 0px 0px;
+    width: 120px;
+    height: 80px;
+    clip-path: circle(50% at 51% 48%);
+  
+  }
+  .header figure img{
+    width: inherit;
+    height: inherit;
+    padding-bottom: 10px;
+  }
+ 
+  .menu{
+    height: inherit;
+  }
+  ul{
+    list-style: none;
+    padding:0px;
+    margin: 0px;
+    display: flex;
+    height: inherit;
+  }
+  li{
+    height: inherit;
+  }
+  h1, h2, h3, h4, h5, h6{
+    font-family: 'Fjalla One', sans-serif;
+  }
+  h1{
+    line-height: 150%;
+    font-size: 40px;
+    font-weight: normal;
+    /* font-style: normal; */
+    letter-spacing: -.2px;
+    text-transform: lowercase;
+    color: white;
+    margin: 0px;
+    animation-duration: 3s;
+    animation-name: titulo;
+  }
+  @keyframes titulo {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      width: 150%;
+    }
+  }
+  .link{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    margin: 0px 20px;
+    padding:0px 10px;
+  }
+  .main{
+    height: 300px;
+    background-color: #1a1c20;
+    background-image: url(../img/img_main.jpg); 
+    background-size: 500px 300px; 
+    background-repeat: no-repeat; 
+    background-position-x: right; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .main figure{
+    margin: 0px;
+    width: 200px;
+    height: 200px;
+    animation:show 2s  infinite;
+  }
+  .main img{
+    width: inherit;
+    height: inherit;
+    animation: ver 3s;
+  }
+
+  @keyframes ver {
+    from{
+      visibility: hidden;
+    }
+    to{
+      visibility:collapse;
+    }
+  }
+  @keyframes show {
+    to{
+      clip-path: polygon(50% 0%, 100% 100%, 100% 500%, 0% 100%);
+    }
+  }
+
+
+
+  
+  .main span{
+    color: #28df99;
+  }
+  h2{
+    margin: 0px;
+    padding:1.5rem 0px;
+    text-transform: uppercase;
+    color:#005086;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+  .projects{
+    padding: 0px 1.5rem 10px 1.5rem;
+    background-color: #744bc525;
+    
+  }
+  .project{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    padding: 2%;
+    margin: 0px 0px 1.8rem 0px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+  .project-left{
+    width: 48%;
+  }
+  .project-title{
+    margin: 0 0 0.7rem 0;
+    font-size: 1.3rem;
+  }
+  .project-language, .project-date, .project-link, .project-description{
+    margin:0.7rem 0;
+  }
+  .project-container_image{
+    width: 48%;
+    margin: 0;
+  }
+  .project-image{
+    width: 100%;
+  }
+  .project-link a{
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .experiences{
+    padding:0px 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #e3ede8;
+  }
+  .experience{
+    margin: 0px 2% 40px 0px;
+    width: 48%;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #f4fbff;
+    
+  }
+  .experience-container_image{
+    margin: 0px;
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+    position: relative;
+  }
+  .experience-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .experience-down{
+    margin: 0 1.5rem 1.3rem 1.5rem;
+    margin-top: -2rem;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;  
+    border-radius: 10px;
+  }
+  .experience-title{
+    margin: 0px;
+  }
+  .experience-description{
+    text-align: left;
+  }
+  .experience-down button{
+    border:1px solid #005086;
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #005086;
+  }
+  .experience-mainTitle{
+  
+    margin: 0px;
+    padding: 1.5rem 0 1.5rem 0rem;
+    
+  }
+  .contact{
+    display:flex;
+    background-color: #31112c;
+    padding: 1.7rem 2.5rem 1.7rem 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  .contact-form input{
+    border-color: gray;
+    border-style: solid;
+    padding: 5px 5px 5px 35px;
+    border-radius: 5px;
+    background-image: url(../img/envelope.svg);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position-y: center;
+    background-position-x: 5px;
+    outline: none;
+    margin-top: 20px;
+  }
+  
+  .contact-form button{
+    display: block;
+    padding: 5px 25px;
+    cursor: pointer;
+    font-size: 16px;
+    border:1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .contact-form h2{
+    padding: 0px;
+    color: white;
+  }
+  
+  .redes{
+    display: flex;
+  }
+  
+  .redes-link{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+  }
+  .redes-link.github{
+    background-image: url(images/github.svg);
+    background-size: 50px 50px;
+  }
+  .redes-link.instagram{
+    background-image: url(images/instagram.svg);
+    background-size: 50px 50px;
+  }
+  .redes-link.twitter{
+    background-image: url(images/twitter.svg);
+    background-size: 50px 50px;
+  }
+  
+  
+  .footer{
+    background-color: #7d0633;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 2.5rem;
+    flex-wrap: wrap;
+    color: white;
+  }
+  .footer-details{
+    display: flex;
+    align-items: center;
+  }
+  .footer-details img{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+  }
+  .wrapper{
+    max-width: 1000px;
+    flex:1;
+    margin:0px auto;
+    display:inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    
+  }
+  
+  @media screen and (max-width:1024px){
+    .experience-mainTitle{
+  
+      margin: 0px;
+      padding: 1.5rem 0 1.5rem 1.5rem;
+    }
+    .wrapper.especial{
+      margin: 0;
+    }
+    .main{
+      height: auto;
+      position: relative;
+      overflow: hidden;
+      padding: 3rem 1.5rem;
+    }
+    h1{
+      z-index: 5;
+    }
+    .main figure{
+      width: auto;
+    }
+    .main figure img{
+      position: absolute;
+      top:0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      
+    }
+  }
+  
+  @media screen and (max-width:767px){
+    .container_menu-hamburguer{
+      display: block;
+    }
+    .menu{
+      position:fixed;
+      z-index: 300;
+      background-color: rgba(0, 0, 0, 0.438);
+      top:0;
+      left: -100vw;
+      right: 0;
+      bottom: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      transition: 1s;
+    }
+    .header{
+      height: auto;
+      display: block;
+    }
+    ul{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .menu.menu_active{
+      left: 0;
+    }
+    .link{
+      justify-content: center;
+      margin: 0px 0px;
+      padding:10px 0px;
+      font-size: 2rem;
+      color: rgb(225, 255, 55);
+      text-shadow: 5px 5px 5px crimson;
+    }
+    .link:hover{
+      background-color: #69ce8b;
+    }
+    .header figure{
+      display: flex;
+      justify-content: center;
+      width: auto;
+      margin: 0px 0px 0px 0px;
+      padding: 10px 0;
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      animation: show 10s ease ;
+    }
+
+    .project{
+      display: block;
+      padding: 2%;
+      box-shadow: 0px 0px 8px black;
+    }
+    .project-left{
+      width: auto;
+    }
+    .project-container_image{
+      width: auto;
+    }
+    .project-language, .project-date, .project-link, .project-description{
+      margin:0.6rem 0;
+    }
+    .projects h2{
+      padding: 1.3rem 0;
+      font-size: 1.5rem;
+    }
+    .experiences{
+      display: block;
+    }
+    .experience{
+      width: 100%;
+      margin: 0px 2% 3rem 0px;
+    }
+    .experience-mainTitle{
+      font-size: 1.5rem;
+      padding: 1.3rem 0 1.3rem 1.5rem;
+    }
+    
+  }
+  
+  @media screen and (max-width:572px){
+    h1{
+      font-size: 2rem;
+    }
+    .contact{
+      justify-content: center;
+      padding: 1.7rem 2.5rem 0.5rem 2.5rem;
+    }
+    .contact-form{
+      text-align: center;
+    }
+    .contact-form button{
+      margin: 1rem auto 1.3rem auto;
+    }
+    .redes-link{
+      margin-bottom: 1rem;
+    }
+    .redes{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .footer{
+      display: block;
+      text-align: center;
+    }
+    .footer-details{
+      justify-content: center;
+    }
+  }
+  
+  
+  @media screen and (max-width:480px){
+    h1{
+      font-size: 1.5rem;;
+    }
+    .main{
+      padding: 2rem 1.2rem;
+    }
+    .projects{
+      padding: 0px 1.2rem 6px 1.2rem;
+    }
+    .project{
+      box-shadow: 0px 0px 6px black;
+      padding: 3%;
+    }
+    .projects h2{
+      padding: 1.1rem 0;
+      font-size: 1.4rem;
+    }  
+    .project-title{
+      font-size: 1.2rem;
+    }
+    .project-language, .project-date, .project-link, .project-description{
+      margin:0.6rem 0;
+      font-size: 1rem ;
+    }
+    .link{
+      padding: 0.5em 0;
+    }
+    .experiences{
+      padding: 0px 1.2rem;
+    }
+    .experience{
+      margin: 0px 2% 2.5rem 0px;
+    }
+    .experience-down{
+      padding: 1rem;
+      margin: 0 1.5rem 1.3rem 1.5rem;
+      margin-top: -1.5rem;
+    }
+    .experience-mainTitle{
+      font-size: 1.4rem;
+      padding: 1.1rem 0 1.1rem 1.2rem;
+    }
+    .contact, .footer{
+      padding: 1rem 1.3rem 0.5rem 1.3rem;
+    }
+  
+    
+  }
+  @media screen and (max-width:320px){
+    .main{
+      padding: 1rem 0.8rem;
+    }
+    h1{
+      padding: 0.5rem;
+      background-color: rgba(66, 63, 63, 0.418);
+    }
+    .project{
+      box-shadow: 0px 0px 4px black;
+      margin-bottom: 0.9rem;
+      padding: 4%;
+    }
+    .link{
+      padding: 0.4em 0;
+    }
+    .projects{
+      padding: 0px 0.9rem 6px 0.9rem;
+    }
+    .projects h2{
+      padding: 1.1rem 0;
+      font-size: 1.3rem;
+    }  
+    .project-title{
+      font-size: 1.1rem;
+    }
+    .project-language, .project-date, .project-link, .project-description{
+      margin:0.6rem 0;
+      font-size: 0.9rem ;
+    }
+    .experiences{
+      padding: 0px 0.9rem;
+    }
+    .experience{
+      margin: 0px 2% 2rem 0px;
+    }
+    .experience-down{
+      padding: 0.8rem;
+      margin: 0 1rem 1.3rem 1rem;
+      margin-top: -1.5rem;
+    }
+    .experience-title{
+      font-size: 1.1rem;
+    }
+    .experience-description{
+      font-size: 0.9rem;
+    }
+    .experience-mainTitle{
+      font-size: 1.3rem;
+      padding: 1.1rem 0 1.1rem 0.9rem;
+    }
+    .redes-link.github{
+      margin-left: 0;
+    }
+    .contact, .footer{
+      padding: 1rem 1rem 0.5rem 1rem;
+    }
+  }
+  
+  .video_youtube{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .video_youtube:hover{
+    z-index: 8;
+  }
+  
+  
+  @media screen and (max-width : 700 px){
+    .row , .navbar {
+      flex-direction: column;
+    }
+    .ul{
+      flex-direction:column;
+    }
+  }
+  /* proporcion 56.25% */
+
+
+ 

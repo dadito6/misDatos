@@ -1,0 +1,363 @@
+<!-- la etique mas importante a nivel de dom ya que me representa el tipo de documento para que el navegar interprete que es html -->
+<!DOCTYPE html>
+<!-- Es el padre de todas mis etiquetas atributo lang representa el lenguaje  -->
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cesar Ariel Rea</title>
+  <link rel="shortcut icon" href="images/icono.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- en linea
+  tag
+  externos -->
+  
+</head>
+<body>
+<figure class="container_menu-hamburguer">
+  <img class="hamburguer_menu" id="hamburguer" src="images/data.png" alt="menu">
+</figure>
+
+
+  <header class="header">
+    <div class="wrapper">
+      <figure>
+       <img src="images/git.png" alt="Logo de git" />
+      </figure>
+      <nav class="menu">
+       <ul>
+          <li><a class="link" href="#proyecto">Herramientas</a></li>
+          <li><a class="link" href="#experiencia">Procesos</a></li>
+          <li><a class="link" href="#contactame" >Contactanos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="main">
+    <div class="wrapper">
+    <h1>Portafolio <span>descriptivo</span> del <br>
+       proceso de <span>Evaluacion</span> de <br> 
+      herramientas <span>DevOps</span>
+    </h1>
+      <figure>
+        <img src="images/icon-inicio.png" alt="Tabla con tablet y lapiceros">
+      </figure>
+    </div>
+  </section>
+
+
+  <section id="proyecto" class="projects">
+    <div class="wrapper">
+    <h2>Herramientas</h2>
+    <article class="project">
+    <div class="project-left">
+      <h3 class="project-title">Seguimiento de Incidencias y Administración del proyecto</h3>
+      <h4 class="project-language">Atlassian Jira</h4>
+      <p class="project-date"><strong>Fecha: 20/01/2020</strong></p>
+      <p class="project-link"><a href="https://www.atlassian.com/software/jira?&aceid=&adposition=&adgroup=95003645689&campaign=9124878702&creative=415542752389&device=c&keyword=atlassian%20jira&matchtype=e&network=g&placement=&ds_kids=p51242189324&ds_e=GOOGLE&ds_eid=700000001558501&ds_e1=GOOGLE&gclid=Cj0KCQiA48j9BRC-ARIsAMQu3WTV2rmfvaBbv7xgDDTRbC3jcZKUTy9ShXAEQX2JaSQOBdxQp1smRtMaAkffEALw_wcB&gclsrc=aw.ds" target="_blank">Pagina oficial de Jira </a></p>
+      <p class="project-description">La asignación de tareas es fundamental para aumentar el flujo de trabajo del proyecto, un estado pendiente en las tareas, puede generar diversos conflictos, Atlassian Jira permite que todo el equipo pueda visualizar las tareas, con la finalidad de hacer notar los pendientes y otorga un nivel de prioridad a la solución de las mismas.
+        <br>
+        Atlassian Jira es una herramienta que se acopla a cualquier tipo de proyecto en donde se decida implementar, Jira nos brinda plantillas predeterminadas o flujos de trabajo propios que son totalmente personalizados, los administradores del proyecto tienen la facilidad de asignar permisos para determinar que tipos de acciones podrá ejercer cada miembro sobre el mismo, los seguimientos precisos en el progreso del proyecto permiten generar informes. 
+        </p>
+    </div>
+    <figure class="project-container_image">
+      <img class="project-image" src="images/jira.png" alt="Agendita">
+    </figure>
+  </article>
+
+  <article class="project">
+    <div class="project-left">
+      <h3 class="project-title">Repositorio de Fuentes</h3>
+      <h4 class="project-language">Bitbucket</h4>
+      <p class="project-date"><strong>Fecha: 20/01/2020</strong></p>
+      <p class="project-link"><a href="https://bitbucket.org/product?&aceid=&adposition=&adgroup=92266797997&campaign=7370823359&creative=414625423588&device=c&keyword=%2Bbitbucket&matchtype=b&network=g&placement=&ds_kids=p51241906736&ds_e=GOOGLE&ds_eid=700000001551985&ds_e1=GOOGLE&gclid=Cj0KCQiA48j9BRC-ARIsAMQu3WTqwYPACVRAVXPX7TlkZRfLn_Tp4a6rRMavrTzfCqbxoSpts6ub_8IaAgS9EALw_wcB&gclsrc=aw.ds" target="_blank">Pagina oficial de Bitbucket </a></p>
+      <p class="project-description">Atlassian Bitbucket es una herramienta que se encarga de gestionar cualquier tipo de proyecto, codificado en texto plano, con la finalidad de crear seguimiento a los diversos cambios o implementaciones que los miembros del equipo encargado realicen, una gran ventaja de Bitbucket sobre otras herramientas del mismo tipo, es la integración nativa con Jira, dicha integración permite crear transiciones entre los estados de error de forma automática, permitiendo que todo el equipo implicado este al tanto de cada cambio o mejora. <br>
+        El pipelines es una ventaja que presenta esta herramienta ya que nos permite integrar soluciones en cuanto a CI y CD, logrando un comportamiento paralelo a este repositorio, esta herramienta permite utilizar Jenkins o herramientas similares sin generar conflictos.
+        </p>
+    </div>
+    <figure class="project-container_image">
+      <img class="project-image" src="images/Atlassian_Bitbucket_Logo.png" alt="Agendita">
+    </figure>
+  </article>
+
+  <article class="project">
+    <div class="project-left">
+      <h3 class="project-title">Orquestacion</h3>
+      <h4 class="project-language">Jenkins</h4>
+      <p class="project-date"><strong>Fecha: 20/01/2020</strong></p>
+      <p class="project-link"><a href="https://www.jenkins.io/" target="_blank">Pagina oficial de Jenkins </a></p>
+      <p class="project-description">Un proyecto de desarrollo enfocado a infraestructuras hibridas necesita implementar una orquestación de servicios, con la finalidad de sacar el máximo provecho a estas complejas estructuras hibridas. Los proyectos que gestionan, integran y gestionan las infraestructuras hibridas son descritos como proyectos de valor, debido a su enfoque ágil y flexible. <br>
+        Jenkins referencia a un servidor de tipo open source que ayuda a implementar CI, con el fin de permitir automatizar múltiples tipos de tareas, esta herramienta funciona como un verificador del proyecto desarrollado, garantizando que todo funcione en las condicione idóneas antes de ser enviado a producción, Jenkins puede detectar los cambios en tiempo real del proyecto y determinar si es viable o no el despliegue del proyecto y en caso de no encontrar viabilidad generar una falla.
+        </p>
+    </div>
+    <figure class="project-container_image">
+      <img class="project-image" src="images/jenkins.png" alt="Agendita">
+    </figure>
+  </article>
+
+  <article class="project">
+    <div class="project-left">
+      <h3 class="project-title">Repositorio de Artefactos</h3>
+      <h4 class="project-language">Nexus Repository</h4>
+      <p class="project-date"><strong>Fecha: 20/01/2020</strong></p>
+      <p class="project-link"><a href="https://www.sonatype.com/nexus/repository-pro" target="_blank">Pagina oficial de Nexus Repository </a></p>
+      <p class="project-description">Nexus es un administrador de repositorios de dependencias, esta herramienta permite usar diversos proxys, recopilar y administrar todas las dependencias para evitar conflictos con todos los archivos tipo JAR generados, Nexus ayuda a proporcionar una óptima distribución de cualquier software. Las configuraciones internas de Nexus permiten compilar múltiples tipos de artefactos que luego estarán utilizables para otros desarrolladores. Nexus nos permite centralizar las dependencias, ofreciendo una fácil colaboración entre los miembros del equipo.</p>
+    </div>
+    <figure class="project-container_image">
+      <img class="project-image" src="images/nexus.png" alt="Agendita">
+    </figure>
+  </article>
+
+  <article class="project">
+    <div class="project-left">
+      <h3 class="project-title">Pruebas Unitarias (Servidor)</h3>
+      <h4 class="project-language">Junit</h4>
+      <p class="project-date"><strong>Fecha: 20/01/2020</strong></p>
+      <p class="project-link"><a href="https://junit.org/junit5/" target="_blank">Pagina oficial de Junit </a></p>
+      <p class="project-description">
+        Las pruebas unitarias aprueban si el comportamiento lógico de un objeto es el correcto, a través de la implementación de test, la detección de errores en fases tempranas es gracias a la implementación de estas pruebas, permitiendo ahorrar dinero y tiempo. <br>
+         Junit es un framework de automatización de pruebas unitarias que funciona en el lado del servidor y fue diseñado específicamente para ejecutarse con Java, el comportamiento básico de Junit es evaluar si cada método soporta a su clase sin generar errores, recibe un valor por parámetro y evalúa el valor que es devuelvo por la clase, en caso de que el retorno de la clase sea exitoso Junit devolverá el método, en caso contrario Junit retornada un error en el método implementado.
+        </p>
+    </div>
+    <figure class="project-container_image">
+      <img class="project-image" src="images/junit.png" alt="Agendita">
+    </figure>
+  </article>
+
+  <article class="project">
+    <div class="project-left">
+      <h3 class="project-title">Pruebas Unitarias (Cliente)</h3>
+      <h4 class="project-language">Jasmine</h4>
+      <p class="project-date"><strong>Fecha: 20/01/2020</strong></p>
+      <p class="project-link"><a href="https://jasmine.github.io/" target="_blank">Pagina oficial de Jasmine</a></p>
+      <p class="project-description">Jasmine es una herramienta que nos permite realizar pruebas unitarias, se puede ejecutar en diversos tipos de plataforma, Jasmine sobre sale gracias a que permite realizar pruebas unitarias de forma asíncrona, también nos permite implementar. <br>
+        El framework de angular implementa por default la herramienta de pruebas unitarias Jasmine, gracias a esto podemos realizar pruebas de forma nativa y las dos tecnologías van a correr de forma armónica, es importante resaltar que la sintaxis de Jasmine es muy simple y minimalista, además cada test creado se cuenta como una función propia del usuario. Jasmine también cuenta con suites, specs, expectations, matchers.  
+        </p>
+    </div>
+    <figure class="project-container_image">
+      <img class="project-image" src="images/jasmine.png" alt="Agendita">
+    </figure>
+  </article>
+
+  <article class="project">
+    <div class="project-left">
+      <h3 class="project-title">Pruebas de integración</h3>
+      <h4 class="project-language">Postman / Newman</h4>
+      <p class="project-date"><strong>Fecha: 20/01/2020</strong></p>
+      <p class="project-link"><a href="https://www.postman.com/" target="_blank">Pagina oficial de Postman/Newman</a></p>
+      <p class="project-description">Cuando ejecutamos un programa que controla el cumplimiento de pruebas y determina si los resultados arrojados son los esperados, hablamos de la automatización de pruebas. <br>
+        Postman nos permite construir APIs con la finalidad de poder crear flujos de trabajo, conectados por medio de colecciones y peticiones, los tests crean asserts que nos permiten concluir si la información que nos devuelve es la correcta. <br>
+        Newman en un complemento de postman que nos permite sacar aún más rendimiento, permite que las colecciones existentes se puedan integrar con Jenkins, admitiendo la automatización de las pruebas 
+        </p>
+    </div>
+    <figure class="project-container_image">
+      <img class="project-image" src="images/postman.png" alt="Agendita">
+    </figure>
+  </article>
+
+  <article class="project">
+    <div class="project-left">
+      <h3 class="project-title">Cobertura de código</h3>
+      <h4 class="project-language">Jacoco</h4>
+      <p class="project-date"><strong>Fecha: 20/01/2020</strong></p>
+      <p class="project-link"><a href="https://www.eclemma.org/jacoco/" target="blank">Pagina oficial de Jacoco</a></p>
+      <p class="project-description">Esta herramienta cuya función principal es analizar la cobertura que logra un código en el ambiente de pruebas, jacoco realiza los seguimientos y genera un reporte HTML dentro de un entorno local, dicho reporte lo podemos visualizar en nuestro navegador, esta herramienta nos permite visualizar cada archivo del proyecto, permitiendo verificar paso a paso la cobertura de cada paquete, y si entramos a un paquete especifico podremos ver las líneas de código, cuales los escenarios analizados y cuáles son las rutas que aún no tienen cobertura. <br>
+        La integración de esta herramienta es una de sus mayores ventajas, se puede implementar en proyectos nuevos y en proyectos bastante avanzados, lo único que necesita jacoco son pruebas definidas, mejora la calidad de las pruebas y nos permite confirmar que estamos teniendo en cuenta todos los escenarios posibles y rutas adecuadas en el proyecto
+        </p>
+    </div>
+    <figure class="project-container_image">
+      <img class="project-image" src="images/jacoco.png" alt="Agendita">
+    </figure>
+  </article>
+
+  <article class="project">
+    <div class="project-left">
+      <h3 class="project-title">Reporte de calidad del código</h3>
+      <h4 class="project-language">SonarQube</h4>
+      <p class="project-date"><strong>Fecha: 20/01/2020</strong></p>
+      <p class="project-link"><a href="https://www.sonarqube.org/" target="blank">Pagina oficial de SonarQube</a></p>
+      <p class="project-description">Es una plataforma web que funciona como herramienta para la gestión de calidad del código, su aplicación es principalmente para código Java, pero se puede implementar en cualquier otro tipo de lenguaje, la función de SonarQube se basa en la generación de reportes en proyectos, estos reportes son basados en más de 600 reglas incorporadas internamente por la plataforma, que analizan el código en el ambiente de Violaciones de código, análisis dinámico de capa por capa e historial de datos. <br>
+        Sonarqube funciona como un centro de calidad en el ambiente de desarrollo, también ayuda a incrementar las habilidades de desarrollo, nos permite tener una inspección continua del código con el fin de lograr ser escalable a las necesidades de los proyectos. Los análisis sobre el estado del sistema se actualizan de forma relacional a las nuevas versiones de código, evitando conflictos. 
+        </p>
+    </div>
+    <figure class="project-container_image">
+      <img class="project-image" src="images/sonar.png" alt="Agendita">
+    </figure>
+  </article>
+
+  <article class="project">
+    <div class="project-left">
+      <h3 class="project-title">Colaboración</h3>
+      <h4 class="project-language">Confluence</h4>
+      <p class="project-date"><strong>Fecha: 20/01/2020</strong></p>
+      <p class="project-link"><a href="https://www.atlassian.com/software/confluence?&aceid=&adposition=&adgroup=99427413992&campaign=9616888075&creative=425915366298&device=c&keyword=confluence&matchtype=e&network=g&placement=&ds_kids=p52352124674&ds_e=GOOGLE&ds_eid=700000001542923&ds_e1=GOOGLE&gclid=Cj0KCQiA48j9BRC-ARIsAMQu3WSndJdYDcWwlFRMFBQZFZhNN-b-HZGp2KAKaH2VQb89Atqy-cE0CPEaAs_3EALw_wcB&gclsrc=aw.ds" target="blank">Pagina oficial de Confluence</a></p>
+      <p class="project-description">Con la finalidad de lograr entornos colaborativos que nos ayuden a crear contenido de valor, es necesario trabajar en equipo, confluence es una herramienta que nos permite trabajar en equipo, sin importar la ubicación en donde se encuentren los diferentes miembros del equipo, confluence nos permite crear planes para el proyecto, nos permite agregar contenido dinámico y de multimedia. <br>
+        El proyecto se monta en un repositorio único, gracias a esto será fácil organizar a tu equipo y se asignaran tareas de forma rápida e intuitiva, confluence nos permite generar permisos individuales, también podrás disfrutar de la conexión nativa con jira, esto nos ayuda para poder realizar los respectivos seguimientos a las incidencias
+        
+        </p>
+    </div>
+    <figure class="project-container_image">
+      <img class="project-image" src="images/confluence.png" alt="Agendita">
+    </figure>
+  </article>
+</div>
+  </section>
+
+  <!-- <div class="content_video-youtube">
+    <iframe class="video_youtube" width="560" height="315" src="https://www.youtube.com/embed/N1701FReYWg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div> -->
+
+
+<div class="wrapper especial">
+  <h2 id="experiencia" class="experience-mainTitle">Procesos</h2>
+</div>
+
+  <section  class="experiences">
+    
+    <div class="wrapper">
+      <p>Los siguientes elementos pertenecen al proceso de evaluación de las herramientas a implementar en el desarrollo del modelo DevOps para el proyecto de prototipo web, los procesos contienen métricas compartidas o individuales para cada herramienta. 
+      </p>
+    <article class="experience">
+      <!-- <figure class="experience-container_image"> -->
+          <!-- <iframe class="video_youtube" width="560" height="315" src="https://www.youtube.com/embed/N1701FReYWg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <img class="experience-image" src="img/experiencia.jpg" alt="postres yogurt griego"> -->
+        <figure class="experience-container_image">
+          <img class="experience-image" src="images/procesos_medibles.png" alt="postres yogurt griego">
+        </figure>
+      <!-- </figure> -->
+      <div class="experience-down">
+        <h3 class="experience-title">Medicion por procesos</h3>
+        <p class="experience-description">Este proceso de evaluación consiste en determinar el comportamiento de la herramienta bajo unos parámetros medibles para determinar su fiabilidad con el modelo DevOps, alguno de estos son:
+          <ul style="display: block; list-style: circle; text-align: left; margin-left: 10px;">
+            <li>Usabilidad </li>
+            <li>Reportes</li>
+            <li>Administración</li>
+            <li>Flexibilidad</li>
+            <li>Rendimiento</li>
+          </ul>
+        </p>
+        <img src="images/btn_dev.jpg" style="width: 50px;" alt="">
+      
+      </div>
+    </article>
+
+    <article class="experience">
+      <figure class="experience-container_image">
+        <img class="experience-image" src="images/escala.jpg" alt="postres yogurt griego">
+      </figure>
+      <div class="experience-down">
+        <h3 class="experience-title">Escala de medicion</h3>
+        <p class="experience-description">Este proceso de evaluación permite determinar cuales son los criterios con los que se medirán las herramientas con respecto al control que ejercen las herramientas en el proyecto, también permite afirmar la funcionalidad en cada proceso donde sea ejecutada dentro del método DevOps, las escalas de medición son:
+          <ul style="display: block; list-style: circle; text-align: left; margin-left: 10px;">
+            <li>Indicador de relevancia</li>
+            <li>Escala de medición </li>
+            <li>Regla de indicador de relevancia</li>
+            <li>Regla de escala de medición</li>
+          </ul>
+          </p>
+        <img src="images/btn_dev.jpg" style="width: 50px;" alt="">
+      </div>
+    </article>
+
+    <article class="experience">
+      <figure class="experience-container_image">
+        <img class="experience-image" src="images/benc.jpg" alt="postres yogurt griego">
+      </figure>
+      <div class="experience-down">
+        <h3 class="experience-title">Benchmarking </h3>
+        <p class="experience-description">Este proceso evalúa cada una de las herramientas, primando las que cumplen con cada uno de los requerimientos que abarca el proyecto de prototipo web, el proceso se basa en la evaluación y comparación entre cada una de las herramientas mas acordes para suplir las tareas y procesos necesarios. <br><br>
+          Los parámetros de medición para la selección de herramientas, de toman en cuenta etapas de recopilación de datos, análisis y estudios de diferencias, Adaptación, Seguimiento y control de resultados entre muchos otros mas. 
+          </p>
+          <img src="images/btn_dev.jpg" style="width: 50px;" alt="">
+      </div>
+    </article>
+
+    <article class="experience">
+      <figure class="experience-container_image">
+        <img class="experience-image" src="images/medicion_pa.jpg" alt="postres yogurt griego">
+      </figure>
+      <div class="experience-down">
+        <h3 class="experience-title">Medicion de patrones</h3>
+        <p class="experience-description">El éxito de DevOps depende en gran parte del entorno de trabajo mixto de forma natural, basados en que no todos los procesos necesitan las mismas configuraciones, es por esto que se vuelve una necesidad la integración de cada proceso con sus herramientas. <br> <br>
+          Los patrones de medición son basados en la investigación e implementación de grandes empresas con el modelo DevOps, donde los marcos de trabajo referencian como factores influyentes el tamaño del equipo, la madurez de requisitos, alcances, estabilidad entre otros.
+        </p>
+        <img src="images/btn_dev.jpg" style="width: 50px;" alt="">
+      </div>
+    </article>
+  </div>
+  </section>
+
+
+  <section id="contactame" class="contact">
+    <div class="wrapper">
+    <form action="" class="contact-form">
+      <h2>Contactame </h2>
+      <input type="text" placeholder="Dejame tu email">
+      <button>Enviar</button>
+    </form>
+
+   <div class="redes">
+    <a href="https://github.com/dadito6" target="_blank"  class="redes-link github"></a>
+    <a href="https://www.instagram.com/cesarr.rea/"target="_blank"  class="redes-link instagram"></a>
+    <a href="https://twitter.com/CesarARea" target="_blank" class="redes-link twitter"></a>
+   </div>
+  </div>
+
+  </section>
+
+
+  <footer class="footer">
+    <div class="wrapper">
+    <div class="footer-details">
+      <p>Gracias por visitar mi pagina !</p>
+      <img src="images/icon.png" alt=" icono">
+    </div>
+    <p>Diseñado por Cesar Ariel Rea 🤓💻📌</p>
+  </div>
+  </footer>
+
+  <script>
+
+    const changes = window.matchMedia('screen and (max-width:767px)');
+
+    const menu_profesional = document.querySelector('.menu');
+
+    const button_hamburguer = document.querySelector('#hamburguer');
+
+    changes.addListener(validation);
+
+    function validation(event){
+      if(event.matches){
+        button_hamburguer.addEventListener('click', WatchHiden);
+      }
+      else{
+        button_hamburguer.removeEventListener('click', WatchHiden); 
+      }
+    }
+
+    validation(changes);
+
+    function WatchHiden(){
+      if(menu_profesional.classList.contains('menu_active')){
+        menu_profesional.classList.remove('menu_active');
+      }
+      else{
+        menu_profesional.classList.add('menu_active');
+      }
+    }
+
+var nombre = "Soy una variable con scope Global";
+function hola(){
+  var local = "Soy una variable con scope local";
+  return `${nombre} unido con ${local}`;
+}
+console.log(nombre);
+
+
+
+</script>
+
+</body>
+</html>
